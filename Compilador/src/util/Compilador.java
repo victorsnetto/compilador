@@ -1,4 +1,4 @@
-package logica;
+package util;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
