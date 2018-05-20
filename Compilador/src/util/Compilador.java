@@ -10,12 +10,7 @@ public class Compilador {
 
 	private final String arquivo;
 
-	private boolean flag;
-	private boolean flagErro;
-	private boolean flagErroBlocoIni;
-	private boolean flagErroBlocoFin;
-	private boolean flagErroBloco;
-	private boolean flagErroLinha;
+
 	private boolean flagErroOp;
 	
 	private final String[] errorsOp = {"+-", "-+", "+*", "*+", "+/", "/+", "*/", "/*"};
@@ -24,12 +19,6 @@ public class Compilador {
 
 	public Compilador(String arquivo) {
 		this.arquivo = arquivo;
-
-		this.flag = false;
-		this.flagErro = false;
-		this.flagErroBlocoIni = false;
-		this.flagErroLinha = false;
-		this.flagErroBloco = false;
 		this.flagErroOp = false;
 	}
 
